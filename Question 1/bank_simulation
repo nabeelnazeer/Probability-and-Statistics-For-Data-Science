@@ -1,141 +1,0 @@
-Script started on Sun Jan 21 10:41:31 2024
-[oh-my-zsh] Would you like to update? [Y/n] Rscript "/Users/nabeelnazeer/Desktop/Probability a
-[oh-my-zsh] You can update manually by running `omz update`
-script "/Users/nabeelnazeer/Desktop/Probability and Statistics For Data Science/Question 1/bank_simulation"
-[1m[7m%[27m[1m[0m                                                 ]2;nabeelnazeer@nabeels-MacBook-Air:~/Desktop/Probability and Statistics For Data Science]1;.. Data Science]7;file://nabeels-MacBook-Air.local/Users/nabeelnazeer/Desktop/Probability%20and%20Statistics%20For%20Data%20Science\[0m[27m[24m[J[01;32m➜  [36mProbability and Statistics For Data Science[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hsscript "/Users/nabeelnazeer/Desktop/Pr [K[Koobability and Statistics For Data Science/Questio [K[Knn 1/bank_simulation"[?1l>[?2004l
-]2;script ]1;scriptScript started, output file is /Users/nabeelnazeer/Desktop/Probability and Statistics For Data Science/Question 1/bank_simulation
-[oh-my-zsh] Would you like to update? [Y/n] y
-[34mUpdating Oh My Zsh[0m
-
-[1;4mmaster[0m
-
-[31m[1mBREAKING CHANGES:[0m
-
- - [33m207d29b[0m [[38;5;9mgit[0m]                      
-
-   The alias `[2mgup[0m` for `[2mgit pull --rebase[0m` and
-   its derivatives are replaced by `[2mgpr[0m` for
-   standardization. This means the previous
-   aliases will no longer be available after a
-   few months. Meanwhile, the original aliases
-   are still working, with a deprecation notice.
-   See
-   https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/git/README.md#deprecated-aliases
-   for the full list of deprecated aliases.
-
- - [33mb5583a3[0m [[38;5;9mrtx[0m]                      
-
-   Rename `[2mrtx[0m` plugin to `[2mmise[0m`. The project
-   swapped name in `[2mv2024.1.0[0m`. Replace
-   references to `[2mrtx[0m` with `[2mmise[0m` while
-   maintaining backwards compatibility for `[2mrtx[0m`
-   installations.
-
-[1mFeatures:[0m
-
- - [33m486e56a[0m [[38;5;9mautojump[0m]                 Add path for nix per-user ([32m#11935[0m)
- - [33m94a0481[0m [[38;5;9maws[0m]                      Add sso logout capabilities ([32m#12113[0m)
- - [33m3e92d25[0m [[38;5;9maws[0m]                      Add support for sso sessions login ([32m#12090[0m)
- - [33m96c9766[0m [[38;5;9mbazel[0m]                    Use completion also for bazelisk ([32m#11984[0m)
- - [33m38e80e9[0m [[38;5;9mbgnotify[0m]                 Add icon parameter ([32m#12055[0m)
- - [33m0a9d827[0m [[38;5;9mbgnotify[0m]                 Add option to disable terminal bell ([32m#12077[0m)
- - [33me6a1db2[0m [[38;5;9mbgnotify[0m]                 Add support to wayland ([32m#12045[0m)
- - [33m9f84ba0[0m [[38;5;9mcommand-not-found[0m]        Add support for Homebrew on Linux
- - [33m76a1dfc[0m [[38;5;9mdocker-compose[0m]           Add `[2mdclF[0m` alias ([32m#10603[0m)
- - [33m48ccc7b[0m [[38;5;9mdotnet[0m]                   Update completion script ([32m#12028[0m)
- - [33m346bd1c[0m [[38;5;9mfrontend-search[0m]          Add `[2mI am lucky[0m` option
- - [33mc37df3e[0m [[38;5;9mfrontend-search[0m]          Add nextjs
- - [33m8980ffe[0m [[38;5;9mgcloud[0m]                   Add asdf installation dir ([32m#12146[0m)
- - [33mec74eb9[0m [[38;5;9mgit[0m]                      Add `[2mgcB[0m` alias ([32m#12116[0m)
- - [33mcb7ff9f[0m [[38;5;9mgit[0m]                      Add `[2mgcann![0m` alias ([32m#12041[0m)
- - [33m8be4789[0m [[38;5;9mgit[0m]                      Add `[2mgreva[0m` and `[2mgrevc[0m` aliases ([32m#12042[0m)
- - [33mcb86d37[0m [[38;5;9mgit-auto-fetch[0m]           Fetch also submodules ([32m#12001[0m)
- - [33mf43ee85[0m [[38;5;9mgitfast[0m]                  Update to version v2.0 ([32m#12135[0m)
- - [33mf10cd52[0m [[38;5;9mhistory[0m]                  Add `[2mhl[0m` alias ([32m#11990[0m)
- - [33md93401c[0m [[38;5;9mhistory-substring-search[0m] Update to upstream ([32m#12164[0m)
- - [33mc007497[0m [[38;5;9      Add `[2mFX[dim][0m` format ([32m#12sion 8dd05bfc ([32m#12167[0m)
- - [33md2ffe83[0m [[38;5;9mhistory-substring-search[0m] Use new dependencies updater
- - [33mb696288[0m [[38;5;9mkubectl[0m]                  Add `[2mkgdsa[0m` alias ([32m#11863[0m)
- - [33ma8dee63[0m [[38;5;9mlando[0m]                    Bypass `[2mlando[0m` if command is not available in container ([32m#11993[0m)
- - [33m38c01a2[0m [[38;5;9mnpm[0m]                      Add alias for `[2mnpm run build[0m` ([32m#12012[0m)
- - [33m418046e[0m [[38;5;9mper-directory-history[0m]    Add option to reduce verbosity ([32m#12069[0m)
- - [33mf4435a4[0m [[38;5;9mrails[0m]                    Update completion script ([32m#12145[0m)
- - [33mf74add6[0m [[38;5;9mreact-native[0m]             Add aliases for iPhone 15 ([32m#12114[0m)
- - [33m48a62a9[0m [[38;5;9mspan[0m]                     Introducing Snapcraft CLI plugin ([32m#9357[0m)
- - [33mf7b647e[0m [[38;5;9mspectrum[0m]                 Add `[2mFX[dim][0m` format ([32m#12172[0m)
- - [33m15479ca[0m [[38;5;9mterraform[0m]                Add new terraform and helm aliases ([32m#11923[0m)
- - [33m104041a[0m [[38;5;9mtmux[0m]                     Add `[2mtds[0m` alias for directory sessions ([32m#11987[0m)
- - [33me021334[0m [[38;5;9mvi-mode[0m]                  Add option to disable clipboard ([32m#12037[0m)
- - [33m5c22c58[0m [[38;5;9mvi-mode[0m]                  Allow replacing on visual mode ([32m#12006[0m)
- - [33md43f03b[0m [[38;5;9mvirtualenvwrapper[0m]        Run function on startup ([32m#12163[0m)
- - [33mc6ce22f[0m [[38;5;9mvscode[0m]                   Add `[2mvscp[0m` alias ([32m#12092[0m)
- - [33md3112d6[0m [[38;5;9mvscode[0m]                   Allow arguments to `[2mvsc[0m` alias ([32m#11903[0m)
- - [33m35a5357[0m [[38;5;9mweb-search[0m]               Add `[2mdeepL[0m` ([32m#12165[0m)
- - [33m667fdbf[0m [[38;5;9mz[0m]                        Update to version afaf2965 ([32m#12136[0m)
-
-[1mBug fixes:[0m
-
- - [33m2db53ff[0m [[38;5;9mavit[0m]                     RPROMPT Fix for [32m#10307[0m ([32m#11131[0m)
- - [33m18073af[0m [[38;5;9mbgnotify[0m]                 Detect properly if `[2mswaymsg[0m` is installed
- - [33m64d881b[0m [[38;5;9mbgnotify[0m]                 Don't require accessibility perms in macos ([32m#11433[0m)
- - [33m9004c17[0m [[38;5;9mbgnotify[0m]                 Make it work with `[2mset -e[0m` ([32m#12111[0m)
- - [33m17e96bf[0m [[38;5;9mchangelog[0m]                Use longer hashes for commits ([32m#12096[0m)
- - [33mfa770f9[0m [[38;5;9mclipboard[0m]                Remove clippaste additional newline on wayland ([32m#12140[0m)
- - [33mc8e600f[0m [[38;5;9mdirenv[0m]                   Initialize properly direnv
- - [33m4652533[0m [[38;5;9mdirenv[0m]                   Use `[2mhook[0m` instead of `[2mexport[0m` ([32m#12000[0m)
- - [33mb7904ae[0m [[38;5;9mfirewalld[0m]                Remove `[2m (default)[0m` from the end of zone string ([32m#11998[0m)
- - [33mf79647d[0m [[38;5;9mgit[0m]                      Fix check in `[2mgbds[0m` function
- - [33mf939768[0m [[38;5;9mgit[0m]                      Fix fallback to develop branch if `[2mmaster[0m` not found ([32m#11966[0m)
- - [33mb6bb133[0m [[38;5;9mgit[0m]                      Fix repository detection in `[2mgccd[0m` function ([32m#12023[0m)
- - [33mff6dac5[0m [[38;5;9mgit[0m]                      Fix smart cd to cloned directory in `[2mgccd[0m` function
- - [33m8152dc6[0m [[38;5;9mgit[0m]                      Move squash-merged branch deletion from `[2mgbda[0m` to `[2mgbds[0m` function ([32m#11991[0m)
- - [33mb1821a2[0m [[38;5;9mgit[0m]                      Restore showing patch in `[2mgsts[0m` ([32m#11951[0m)
- - [33m207d29b[0m [[38;5;9mgit[0m]                      Standardize `[2mgit pull --rebase[0m` aliases ([32m#11224[0m)
- - [33m048455c[0m [[38;5;9mgit-commit[0m]               Fix revert a[38;5;9mnvm[0m]                      Prevent duplicates in lazy_cmd
- - [33m44a5513[0m [[38;5;9mper-directory-history[0m]    Print toggle message properly ([32m#10872[0m)
- - [33m11b0ea3[0m [[38;5;9mpython[0m]                   Add support for cli args ([32m#12159[0m)
- - [33mddf673b[0m [[38;5;9mpython[0m]                   Set `[2mpy[0m` alias if `[2mpy[0m` is not installed ([32m#12059[0m)
- - [33m2a15741[0m [[38;5;9mrake-fast[0m]                Make `[2m.rake_tasks[0m` write atomic ([32m#12108[0m)
- - [33m5ea2c68[0m [[38;5;9mrkj-repos[0m]                Check if `[2m~/.hgrc[0m` exists ([32m#12148[0m)
- - [33me11d813[0m [[38;5;9mrobbyrussell[0m]             Line wrapping for some systems ([32m#12058[0m)
- - [33mb5583a3[0m [[38;5;9mrtx[0m]                      Rename `[2mrtx[0m` plugin to `[2mmise[0m` ([32m#12143[0m)
- - [33m0da4169[0m [[38;5;9mssh-agent[0m]                Add error message if `[2m~/.ssh[0m` is not found ([32m#11929[0m)
- - [33m8428442[0m [[38;5;9mtermsupport[0m]              Add workaround for directory tracking issues in Konsole
- - [33m632ed41[0m [[38;5;9mwd[0m]                       Use `[2m(( ))[0m` instead of `[2m[[ ]][0m`
- - [33mfedef5d[0m [[38;5;9mxcode[0m]                    Open Xcode in current Desk if already open in another ([32m#10384[0m)
- - [33mda3b8fc[0m [[38;5;9myarn[0m]                     Output completion entries in UTF-8 ([32m#11955[0m)
-
-[1mDocumentation:[0m
-
- - [33mf9993d0[0m                            Document the off-GitHub installation URL ([32m#12079[0m)
- - [33m5743198[0m [[38;5;9maliases[0m]                  Fix typo ([32m#11958[0m)
- - [33m6c5586c[0m [[38;5;9mbgnotify[0m]                 Match README with current features ([32m#12057[0m)
- - [33m7329b2f[0m [[38;5;9mdebian[0m]                   Clarify override behavior for `[2mapt_pref[0m` and `[2mapt_upgr[0m`
- - [33m1c8dee8[0m [[38;5;9mgit[0m]                      Align `[2mgpristine[0m` alias ([32m#12155[0m)
-
-[1mOther changes:[0m
-
- - [33m9b5b389[0m [[38;5;9mbgnotify[0m]                 [4mRefactor[24m: Get Sway AppId with `[2mawk[0m` as fallback ([32m#12062[0m)
- - [33md082d87[0m [[38;5;9mlando[0m]                    [4mRefactor[24m: Add `[2mLANDO_ZSH_WRAPPED_COMMANDS[0m` setting and refactor
- - [33ma9b6af5[0m [[38;5;9mminikube[0m]                 [4mRefactor[24m: Standardize completion generation
- - [33m53cb50a[0m [[38;5;9msystemadmin[0m]              [4mRefactor[24m: Use `[2mss[0m` instead of `[2mnetstat[0m` when available ([32m#11957[0m)
-
-[34mYou can see the changelog with `[1momz changelog[0m[34m`[0m
-[38;2;255;0;0m         [38;2;255;97;0m__      [38;2;247;255;0m           [38;2;0;255;30m        [38;2;77;0;255m       [38;2;168;0;255m     [38;2;245;0;172m__   [0m
-[38;2;255;0;0m  ____  [38;2;255;97;0m/ /_    [38;2;247;255;0m ____ ___  [38;2;0;255;30m__  __  [38;2;77;0;255m ____  [38;2;168;0;255m_____[38;2;245;0;172m/ /_  [0m
-[38;2;255;0;0m / __ \[38;2;255;97;0m/ __ \  [38;2;247;255;0m / __ `__ \[38;2;0;255;30m/ / / / [38;2;77;0;255m /_  / [38;2;168;0;255m/ ___/[38;2;245;0;172m __ \ [0m
-[38;2;255;0;0m/ /_/ /[38;2;255;97;0m / / / [38;2;247;255;0m / / / / / /[38;2;0;255;30m /_/ / [38;2;77;0;255m   / /_[38;2;168;0;255m(__  )[38;2;245;0;172m / / / [0m
-[38;2;255;0;0m\____/[38;2;255;97;0m_/ /_/ [38;2;247;255;0m /_/ /_/ /_/[38;2;0;255;30m\__, / [38;2;77;0;255m   /___/[38;2;168;0;255m____/[38;2;245;0;172m_/ /_/  [0m
-[38;2;255;0;0m    [38;2;255;97;0m        [38;2;247;255;0m           [38;2;0;255;30m /____/ [38;2;77;0;255m       [38;2;168;0;255m     [38;2;245;0;172m          [0m
-
-[34mHooray! Oh My Zsh has been updated![0m
-
-[34m[1mTo keep up with the latest news and updates, follow us on Twitter: [4mhttps://twitter.com/ohmyzsh[24m[0m
-[34m[1mWant to get involved in the community? Join our Discord: [4mhttps://discord.gg/ohmyzsh[24m[0m
-[34m[1mGet your Oh My Zsh swag at: [4mhttps://shop.planetargon.com/collections/oh-my-zsh[24m[0m
-[1m[7m%[27m[1m[0m                                                 ]2;nabeelnazeer@nabeels-MacBook-Air:~/Desktop/Probability and Statistics For Data Science]1;.. Data Science]7;file://nabeels-MacBook-Air.local/Users/nabeelnazeer/Desktop/Probability%20and%20Statistics%20For%20Data%20Science\[0m[27m[24m[J[01;32m➜  [36mProbability and Statistics For Data Science[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h[?1l>[?2004l
-[1m[7m%[27m[1m[0m                                                 ]2;nabeelnazeer@nabeels-MacBook-Air:~/Desktop/Probability and Statistics For Data Science]1;.. Data Science]7;file://nabeels-MacBook-Air.local/Users/nabeelnazeer/Desktop/Probability%20and%20Statistics%20For%20Data%20Science\[0m[27m[24m[J[01;32m➜  [36mProbability and Statistics For Data Science[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hRRscript "/Users/nabeelnazeer/Desktop/P [K[Krrobability and Statistics For Data Science/Questi [K[Koon 1/bank_simulation"[?1l>[?2004l
-]2;Rscript ]1;Rscriptzsh: command not found: Rscript
-[1m[7m%[27m[1m[0m                                                 ]2;nabeelnazeer@nabeels-MacBook-Air:~/Desktop/Probability and Statistics For Data Science]1;.. Data Science]7;file://nabeels-MacBook-Air.local/Users/nabeelnazeer/Desktop/Probability%20and%20Statistics%20For%20Data%20Science\[0m[27m[24m[J[01;31m➜  [36mProbability and Statistics For Data Science[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hr@nabeels-MacBook-Air:~/Desktop/Probability and Statistics For Data Science]1;.. Data Science]7;file://nabeels-MacBook-Air.local/Users/nabeelnazeer/Desktop/Probability%20and%20Statistics%20For%20Data%20Science\[0m[27m[24m[J[01;32m➜  [36mProbability and Statistics For Data Science[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hRRscript "/Users/nabeelnazeer/Desktop/P [K[Krrobability and Statistics For Data Science/Questi [K[Koon 1/bank_simulation"[?1l>[?2004l
-]2;Rscript ]1;Rscriptzsh: command not found: Rscript
-[1m[7m%[27m[1m[0m                                                 ]2;nabeelnazeer@nabeels-MacBook-Air:~/Desktop/Probability and Statistics For Data Science]1;.. Data Science]7;file://nabeels-MacBook-Air.local/Users/nabeelnazeer/Desktop/Probability%20and%20Statistics%20For%20Data%20Science\[0m[27m[24m[J[01;31m➜  [36mProbability and Statistics For Data Science[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h
